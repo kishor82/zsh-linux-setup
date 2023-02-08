@@ -41,3 +41,5 @@ plugins = {
 }
 ```
 
+- Hide computer name in terminal :  add `export DEFAULT_USER=$USER` to .zshrc 
+
