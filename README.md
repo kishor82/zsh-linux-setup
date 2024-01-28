@@ -22,10 +22,7 @@ The Syntax Highlighting plugin adds beautiful colors to the commands you are typ
 - `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
 - Activate the plugin in ~/.zshrc by adding `zsh-syntax-highlighting to the Plugins section as shown below.
 ```bash
-plugins = {
-    git
-    zsh-syntax-highlighting
-}
+plugins=(git zsh-syntax-highlighting)
 ```
 - Re-read zshrc configuration - `source ~/.zshrc`
 
@@ -34,11 +31,7 @@ plugins = {
 - `git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions`
 -Activate the plugin in ~/.zshrc by adding `zsh-syntax-highlighting to the Plugins section as shown below.
 ```bash
-plugins = {
-    git
-    zsh-syntax-highlighting
-    zsh-autosuggestions
-}
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 ```
 
 - Hide computer name in terminal :  add `export DEFAULT_USER=$USER` to .zshrc 
